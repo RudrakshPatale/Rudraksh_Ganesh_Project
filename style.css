@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.head-block{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head-logo{
+    height: 80px;
+    width: 250px;
+}
+
+.logo{
+    background-image: url("Logo.png");
+    background-size: cover;
+    height: 80px;
+    width: 250px;
+}
+
+.head-title h2{
+    height: 30px;
+    width: 300px;
+}
+
+.border{
+    border: 2px solid white;
+}
+
+.border:hover{
+    border: 2px solid rgb(175, 16, 16);
+}
