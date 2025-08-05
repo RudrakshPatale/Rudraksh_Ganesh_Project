@@ -57,9 +57,73 @@
 }
 
 .box{
-    height: 350px;
+    height: 360px;
     width: 300px;
     background-color: rgb(7, 7, 66);
     border: 2px solid white;
     color: white;
+}
+
+.box-img{
+    
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.login{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* optional: controls button width */
+    margin: 8px 0; /* optional: spacing between buttons */
+    text-align: center;
+}
+
+.regis{
+
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* optional: controls button width */
+    margin: 8px 0; /* optional: spacing between buttons */
+    text-align: center;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.regis a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.head{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
